@@ -1,0 +1,14 @@
+{
+  "name": "async",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.5.2"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/babel index.js --out-file index.build.js"
+  }
+}
